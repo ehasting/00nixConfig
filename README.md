@@ -2,6 +2,6 @@
 Unix/Linux Config
 
 
-git clone git@github.com:ehasting/00nixConfig.git ~/.config/nvim
+rm -Rf ~/.config/nvim ; git clone git@github.com:ehasting/00nixConfig.git ~/.config/nvim
 
 
