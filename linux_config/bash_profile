@@ -6,6 +6,10 @@ if [ -f ~/.bashrc ]; then
 fi
 
 # User specific environment and startup programs
-alias vi=nvim
-alias vim=nvim
-alias nano=nvim
+alias vi="/usr/bin/nvim"
+alias vim="/usr/bin/nvim"
+alias nano="/usr/bin/nvim"
+
+export EDITOR="/usr/bin/nvim"
+export VISUAL="/usr/bin/nvim"
+
